@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:hernandezjuarez/gridfutbol.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(FutbolApp());
 }
 
-class MyApp extends StatelessWidget {
+class FutbolApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.teal,
         ), //tema principal
-        home: MyHomePage());
+        home: PaginaInicial());
   }
 } //Widget sin estado
